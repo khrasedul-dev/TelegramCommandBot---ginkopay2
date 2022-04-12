@@ -10,3 +10,12 @@
 //     console.log(e)
 //     ctx.reply("Something is wrong!")
 // })
+
+
+// start - for start
+// info_staking - for infoStaking
+// deposit - for dosposit
+// withdraw - for withdraw
+// news - for news
+// legal - for legal
+// customer_support - for customer support
