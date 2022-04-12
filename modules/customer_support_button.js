@@ -1,6 +1,6 @@
 const tg = (ctx)=>{
 
-    ctx.reply('Telegram: \nContact with @khrasedul2')
+    ctx.reply('Telegram: \n@khrasedul2')
     .catch((e)=>{
         console.log(e)
         ctx.reply("Something is wrong")
@@ -9,7 +9,7 @@ const tg = (ctx)=>{
 
 const email = (ctx)=>{
 
-    ctx.reply('Email: \nexample@mail.com')
+    ctx.reply('Email: \nsupport@banqua.io')
     .catch((e)=>{
         console.log(e)
         ctx.reply("Something is wrong")
