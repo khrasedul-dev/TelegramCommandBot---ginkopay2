@@ -1,6 +1,6 @@
 const silver = (ctx)=>{
 
-    ctx.telegram.sendMessage( ctx.chat.id , `Start 10 € to 50.00 € \nRewards 7% per year \nPayment every year`).catch((e)=>{
+    ctx.telegram.sendMessage( ctx.chat.id , `Start € 500 to € 50,000 € \nRewards 7% per year \nPayment every year`).catch((e)=>{
         console.log(e)
         ctx.reply("Something is wrong")
     })

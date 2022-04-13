@@ -14,7 +14,7 @@
 
 // start - for start
 // info_staking - for infoStaking
-// deposit - for dosposit
+// deposit - for deposit
 // withdraw - for withdraw
 // news - for news
 // legal - for legal

@@ -1,6 +1,6 @@
 const tg = (ctx)=>{
 
-    ctx.reply('Telegram: \n@khrasedul2')
+    ctx.reply('Telegram: \n@BanquaCostumerCare')
     .catch((e)=>{
         console.log(e)
         ctx.reply("Something is wrong")
