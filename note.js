@@ -16,6 +16,7 @@
 // info_staking - for infoStaking
 // deposit - for deposit
 // withdraw - for withdraw
+// referral - for referral
 // news - for news
 // legal - for legal
 // customer_support - for customer support
