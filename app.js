@@ -52,7 +52,11 @@ bot.start(ctx=>{
                         username : ctx.from.username,
                         name: ctx.from.first_name,
                         ref_by: ref,
-                        ref_count: 0
+                        ref_count: 0,
+                        my_wallet: 0,
+                        reward_per: 0,
+                        reward: 0,
+                        today_wallet: 0
                     })
                     data.save()
                     .then(()=>{
@@ -86,7 +90,11 @@ bot.start(ctx=>{
                         username : ctx.from.username,
                         name: ctx.from.first_name,
                         ref_by: 0,
-                        ref_count: 0
+                        ref_count: 0,
+                        my_wallet: 0,
+                        reward_per: 0,
+                        reward: 0,
+                        today_wallet: 0
                     })
                     data.save()
                     .then(()=>console.log("Data insert"))
