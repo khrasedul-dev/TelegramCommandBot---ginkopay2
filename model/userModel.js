@@ -16,6 +16,18 @@ const s = new mongoose.Schema({
     ref_count: {
         type: Number
     },
+    my_wallet: {
+        type: String
+    },
+    reward_per: {
+        type: String
+    },
+    reward: {
+        type: String
+    },
+    today_wallet: {
+        type: String
+    },
     created_at: {
         type: Date,
         default: Date.now
